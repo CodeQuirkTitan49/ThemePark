@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #ff9800;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('https://images.unsplash.com/photo-1508606572321-901ea443707f') no-repeat center/cover;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff5722;
+  color: white;
+  font-size: 1.1em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #e64a19;
+}
+
+/* Rides Section */
+#rides {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#rides ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#rides li {
+  background-color: #ffe0b2;
+  margin: 10px auto;
+  padding: 10px;
+  width: 50%;
+  border-radius: 8px;
+  font-size: 1.1em;
+}
+
+/* Gallery */
+#gallery {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Booking Form */
+#booking {
+  background-color: #fff3e0;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#booking form {
+  display: inline-block;
+  text-align: left;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#booking label {
+  display: block;
+  margin-top: 10px;
+}
+
+#booking input,
+#booking select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#booking button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff9800;
+  color: white;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#booking button:hover {
+  background-color: #fb8c00;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ff9800;
+  color: white;
+  margin-top: 30px;
+}
